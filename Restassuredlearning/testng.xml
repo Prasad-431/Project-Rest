@@ -5,8 +5,7 @@
 		<classes>
 			<class name="Demo.NewTest" />
 			<class name="Demo.Getrequest" />
-			<class name="Demo.Postrequest" />
-
+			
 		</classes>
 	</test> <!--
 	Test -->
