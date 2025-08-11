@@ -9,6 +9,24 @@
 
   <name>Restassuredlearning</name>
   <url>http://maven.apache.org</url>
+  <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.0.0-M7</version> <!-- Use latest stable version -->
+      <configuration>
+        <includes>
+          <include>NewTest.java</include> <!-- Include your test files pattern -->
+       <include>Getrequest.java</include> 
+       <include>Postrequest.java</include> 
+        </includes>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
