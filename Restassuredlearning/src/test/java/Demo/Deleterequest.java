@@ -7,6 +7,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 
 public class Deleterequest {
 	@Test
@@ -19,6 +20,5 @@ public class Deleterequest {
 		Assert.assertTrue(statuscode == 200 || statuscode == 204,
 				"statuscode expected is 200 or 204 but got :" + statuscode);
 		response.prettyPeek();
-		
 	}
 }

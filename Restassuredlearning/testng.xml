@@ -8,6 +8,7 @@
 			<class name="Demo.Postrequest" />
 			<class name="Demo.Putrequest" />
 			<class name="Demo.Deleterequest" />
+			<class name="Demo.Parameterizedtest" />
 		</classes>
 	</test> <!--
 	Test -->
